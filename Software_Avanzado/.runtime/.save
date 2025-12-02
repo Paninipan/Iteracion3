@@ -1,0 +1,12 @@
+#Tue Nov 25 19:42:53 CET 2025
+org.modelio.app.diagram.editor.OpenedDiagrams4='Centros educativos a distancia' {6db0b9dc-88fd-4b9d-b4f8-08df56249e18} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams3='Trabajadores Sociales' {0c7bc108-a13e-4e68-a8e5-9d0c7efdb95e} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams2='Profesores de Cursos y Talleres' {d6222a0a-cb8b-49fb-a98b-543e994223bf} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams1='Departamento de Coordinaci\u00F3n de Actividades' {2cebf02e-eb2c-4014-913b-9c759db1b2e6} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams0='Jefe del Dpto. de Coordinaci\u00F3n de Atividades' {dd63f37c-2dde-4ee6-b91d-f3f4a02c2e83} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams10='Director' {604f9b88-c67c-41c0-83a4-9a4f8f3928a0} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams9='Sistema' {142f4ba0-9cd2-47d2-8bd9-85b38a18ca52} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams8='Presos' {498efa1f-6352-4137-97a9-53c662bea7d4} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams7='Departamento de Control de Accesos' {c851b331-b4e9-4ef3-a557-115604d8ffe1} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams6='Departamento de Recursos Humanos' {6127f0c3-e822-4368-b70b-91e32406b49e} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams5='Departamento de Segimiento y Gesti\u00F3n de presos' {493a2d4f-3522-44b8-b8ab-1b57b6d2706b} Standard.UseCaseDiagram

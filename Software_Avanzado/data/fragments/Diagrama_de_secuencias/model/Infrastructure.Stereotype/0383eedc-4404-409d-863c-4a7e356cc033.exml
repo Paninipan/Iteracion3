@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EAttribute_Standard.BindableInstance" version="4">
+  <OBJECT>
+    <ID name="EAttribute_Standard.BindableInstance" mc="Infrastructure.Stereotype" uid="0383eedc-4404-409d-863c-4a7e356cc033"/>
+    <PID name="Ecore" mc="Infrastructure.Profile" uid="d332fee3-0498-49b2-a49d-39386c2151d0"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[EAttribute]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.BindableInstance]]></ATT>
+      <ATT name="Name"><![CDATA[EAttribute_Standard.BindableInstance]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="EStructuralFeature" mc="Infrastructure.Stereotype" uid="fec631b2-0efb-4f91-81f1-ae8058440f8b"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="attributeName" mc="Infrastructure.TagType" uid="4703742d-780c-4e6d-a660-721abfc5436d"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[attributeName]]></ATT>
+            <ATT name="Name"><![CDATA[attributeName]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="isID" mc="Infrastructure.TagType" uid="9b85661f-dd72-478b-ae73-f42b500066a9"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[isID]]></ATT>
+            <ATT name="Name"><![CDATA[isID]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

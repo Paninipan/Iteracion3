@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Extend" version="4">
+  <OBJECT>
+    <ID name="Extend" mc="Infrastructure.Stereotype" uid="2aa925a5-4296-4a3c-856b-20418dc3907f"/>
+    <PID name="Ecore" mc="Infrastructure.Profile" uid="31f121a9-e826-4adb-bdc1-1705ef59d6f8"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[Extend]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Generalization]]></ATT>
+      <ATT name="Name"><![CDATA[Extend]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

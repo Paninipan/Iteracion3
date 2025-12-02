@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EAttribute_Standard.Attribute" version="4">
+  <OBJECT>
+    <ID name="EAttribute_Standard.Attribute" mc="Infrastructure.Stereotype" uid="f80f2cd6-c6af-40b6-bab5-9fe2ddbf1310"/>
+    <PID name="Ecore" mc="Infrastructure.Profile" uid="31f121a9-e826-4adb-bdc1-1705ef59d6f8"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[EAttribute]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Attribute]]></ATT>
+      <ATT name="Name"><![CDATA[EAttribute_Standard.Attribute]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="EStructuralFeature" mc="Infrastructure.Stereotype" uid="d98e1355-62e0-4fe3-b78a-b72a61aba1e2"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="attributeName" mc="Infrastructure.TagType" uid="bab78e1b-6e7d-40b6-9f61-c4f054be53f5"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[attributeName]]></ATT>
+            <ATT name="Name"><![CDATA[attributeName]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="isID" mc="Infrastructure.TagType" uid="e4a6dd4d-2dd2-443c-a351-425b213bea84"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[isID]]></ATT>
+            <ATT name="Name"><![CDATA[isID]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

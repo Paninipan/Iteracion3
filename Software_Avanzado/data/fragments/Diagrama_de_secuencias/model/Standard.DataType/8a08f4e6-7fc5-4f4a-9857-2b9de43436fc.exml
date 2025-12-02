@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="get_resumen_actividad_preso(id_preso input, horas, dias, aprobado, tipo_actividad, reduccion out )" version="4">
+  <OBJECT>
+    <ID name="get_resumen_actividad_preso(id_preso input, horas, dias, aprobado, tipo_actividad, reduccion out )" mc="Standard.DataType" uid="8a08f4e6-7fc5-4f4a-9857-2b9de43436fc"/>
+    <PID name="Controlador" mc="Standard.Class" uid="b5673920-d3fd-49a9-882a-9d9c97b8b170"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[get_resumen_actividad_preso(id_preso input, horas, dias, aprobado, tipo_actividad, reduccion out )]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EClass_Standard.Interface" version="4">
+  <OBJECT>
+    <ID name="EClass_Standard.Interface" mc="Infrastructure.Stereotype" uid="d476ff2e-9be9-4f09-83db-f9650d115a2c"/>
+    <PID name="Ecore" mc="Infrastructure.Profile" uid="d332fee3-0498-49b2-a49d-39386c2151d0"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[EClass]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Interface]]></ATT>
+      <ATT name="Name"><![CDATA[EClass_Standard.Interface]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="EClassifier" mc="Infrastructure.Stereotype" uid="ff265bad-f253-462f-8e46-98b1294d3d79"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="className" mc="Infrastructure.TagType" uid="77c12327-9e21-4038-91f4-19c6f3d25461"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[className]]></ATT>
+            <ATT name="Name"><![CDATA[className]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="xmlContentKind" mc="Infrastructure.TagType" uid="a072dcfb-fe1d-4020-b35c-b4c5555592ff"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[xmlContentKind]]></ATT>
+            <ATT name="Name"><![CDATA[xmlContentKind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

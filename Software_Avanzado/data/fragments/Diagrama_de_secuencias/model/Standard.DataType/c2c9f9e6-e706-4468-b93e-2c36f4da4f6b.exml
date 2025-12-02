@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="obtener_actividad(id_actividad input)" version="4">
+  <OBJECT>
+    <ID name="obtener_actividad(id_actividad input)" mc="Standard.DataType" uid="c2c9f9e6-e706-4468-b93e-2c36f4da4f6b"/>
+    <PID name="Controlador" mc="Standard.Class" uid="b5673920-d3fd-49a9-882a-9d9c97b8b170"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[obtener_actividad(id_actividad input)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

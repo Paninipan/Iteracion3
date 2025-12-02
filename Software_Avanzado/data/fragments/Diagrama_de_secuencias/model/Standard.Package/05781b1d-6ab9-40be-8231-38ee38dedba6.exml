@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Artefacto_7" version="4">
+  <OBJECT>
+    <ID name="Artefacto_7" mc="Standard.Package" uid="05781b1d-6ab9-40be-8231-38ee38dedba6"/>
+    <PID name="Diagrama_de_secuencias" mc="Standard.Project" uid="395de9d8-60ff-461a-8b5a-23b255a71f18"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Artefacto_7]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="diagrama_de_secuencias" mc="Standard.Package" uid="9e2187b6-9aa8-442c-8188-b5dab3b135f8"/>
+        <COMPID name="Diagramas_de_colaboración_de_diseño" mc="Standard.Package" uid="58f14a0b-4959-4de3-b5c4-2d332c22077b"/>
+        <COMPID name="Diagram_de_clases_de_diseño" mc="Standard.Package" uid="2362dec2-6693-441d-9514-d888f0cac9c1"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

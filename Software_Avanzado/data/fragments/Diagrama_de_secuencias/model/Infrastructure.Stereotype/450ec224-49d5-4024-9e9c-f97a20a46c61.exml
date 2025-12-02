@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Executable" version="4">
+  <OBJECT>
+    <ID name="Executable" mc="Infrastructure.Stereotype" uid="450ec224-49d5-4024-9e9c-f97a20a46c61"/>
+    <PID name="Standard" mc="Infrastructure.Profile" uid="12a293ad-671c-4939-8d19-00b754e5511d"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[Executable]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Artifact]]></ATT>
+      <ATT name="Name"><![CDATA[Executable]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,212 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="external" version="4">
+  <OBJECT>
+    <ID name="external" mc="Standard.Package" uid="acf91b49-196c-4bd3-95f8-51d2621ef6b5"/>
+    <PID name="Diagram_de_clases_de_diseño" mc="Standard.Package" uid="2362dec2-6693-441d-9514-d888f0cac9c1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[external]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <OBJECT>
+          <ID name="ContentKind" mc="Standard.Enumeration" uid="7118118d-ff69-4e86-8228-2cbb45250430"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[ContentKind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="Unspecified" mc="Standard.EnumerationLiteral" uid="b35efce4-7d49-4b34-b4eb-541afe5d7e3b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Unspecified]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Empty" mc="Standard.EnumerationLiteral" uid="6eefa695-69df-4fcb-a086-7cb1f92d409b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Empty]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Simple" mc="Standard.EnumerationLiteral" uid="8ec8d734-5168-4e96-9e7b-e65dbc983d57"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Simple]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Mixed" mc="Standard.EnumerationLiteral" uid="0f3ef4ac-3e85-414d-b3d2-3344053056c0"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Mixed]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ElementOnly" mc="Standard.EnumerationLiteral" uid="7c0c0863-0406-4273-add0-fdbedbb74de5"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ElementOnly]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="FeatureKind" mc="Standard.Enumeration" uid="08ce4aa3-5d8b-4cf5-b5d6-fd378231eaba"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[FeatureKind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="Unspecified" mc="Standard.EnumerationLiteral" uid="712cae0d-516c-46f8-8f5d-6a62ad466aba"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Unspecified]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Simple" mc="Standard.EnumerationLiteral" uid="bc3f7d83-f1bf-4198-97e0-6c19256947ee"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Simple]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Attribute" mc="Standard.EnumerationLiteral" uid="c10ea39f-c459-4a46-80a2-622292f092c9"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Attribute]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Element" mc="Standard.EnumerationLiteral" uid="7fca7503-c014-4bca-9181-cdb5b44f9b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Element]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeWildcard" mc="Standard.EnumerationLiteral" uid="f6d956e8-8601-4178-9103-576e28151007"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[AttributeWildcard]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ElementWildcard" mc="Standard.EnumerationLiteral" uid="23a6a252-ff33-4326-801e-68b284f47a78"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ElementWildcard]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Group" mc="Standard.EnumerationLiteral" uid="6262d2a8-91ee-4dfd-93f1-dcadef78c75d"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Group]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="VisibilityKind" mc="Standard.Enumeration" uid="679c59b5-9dae-435e-b528-fd9c37e45bed"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[VisibilityKind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="Unspecified" mc="Standard.EnumerationLiteral" uid="7f63ebf9-1c08-4b37-be0f-592ce67cb5ae"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Unspecified]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="None" mc="Standard.EnumerationLiteral" uid="46855f51-07da-4864-bca9-773d7f3e8544"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[None]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ReadOnly" mc="Standard.EnumerationLiteral" uid="b496d321-87a3-4f89-b9de-9b30e5f45d90"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ReadOnly]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ReadWrite" mc="Standard.EnumerationLiteral" uid="47fc33c3-22c9-4d3f-8bb8-57654e3ccb9f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ReadWrite]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ReadOnlyUnsettable" mc="Standard.EnumerationLiteral" uid="e35dcc9e-256d-4570-ad95-efe2bcf385af"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ReadOnlyUnsettable]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ReadWriteUnsettable" mc="Standard.EnumerationLiteral" uid="6eb51695-cfe1-4ccf-bfb9-5f99ffe38857"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ReadWriteUnsettable]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagram_de_clases_de_diseño" version="4">
+  <OBJECT>
+    <ID name="Diagram_de_clases_de_diseño" mc="Standard.Package" uid="2362dec2-6693-441d-9514-d888f0cac9c1"/>
+    <PID name="Artefacto_7" mc="Standard.Package" uid="05781b1d-6ab9-40be-8231-38ee38dedba6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Diagram_de_clases_de_diseño]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Controlador" mc="Standard.Class" uid="b5673920-d3fd-49a9-882a-9d9c97b8b170"/>
+        <COMPID name="FachadaBD" mc="Standard.Class" uid="fd74e69e-28a2-4560-a14a-1fbbd2b66464"/>
+        <COMPID name="Usuario" mc="Standard.Class" uid="f2cbb9ac-4705-4490-9645-5cdf9cb28745"/>
+        <COMPID name="Empleado" mc="Standard.Class" uid="72f9f716-a51e-4960-8de5-9b9b683f8f24"/>
+        <COMPID name="Preso" mc="Standard.Class" uid="a70abf68-f993-41f8-8c58-0f401d4b1129"/>
+        <COMPID name="Actividad" mc="Standard.Class" uid="ac3cec66-c495-4ad6-a1b1-d4f328407032"/>
+        <COMPID name="Lista&lt;Presos&gt;" mc="Standard.DataType" uid="31f283e4-d51e-427a-85ff-c8591c000e0c"/>
+        <COMPID name="Lista&lt;ActividadPedida&gt;" mc="Standard.DataType" uid="6e585889-a334-411f-a20e-5ed3fc16e22c"/>
+        <COMPID name="Lista&lt;ActividadAsignada&gt;" mc="Standard.DataType" uid="8a0214ba-69a4-4b64-bd9d-0c763ffdef5c"/>
+        <COMPID name="Lista&lt;Actividad&gt;" mc="Standard.DataType" uid="78947029-097b-4ac2-9088-dff0a7d53c20"/>
+        <COMPID name="Actividad_Pedida" mc="Standard.Class" uid="c28b9d2c-f346-4d07-b218-c4ee26f02a60"/>
+        <COMPID name="Actividad_Asingada" mc="Standard.Class" uid="07c79f8d-768a-4d65-8a61-6c81f424ae04"/>
+        <COMPID name="Lista&lt;id_activades&gt;" mc="Standard.DataType" uid="3b996c8a-263c-44b2-8193-02ec9af4c42f"/>
+        <COMPID name="Lista&lt;dni_preso&gt;" mc="Standard.DataType" uid="205e1601-5373-4cf9-a6c6-f775d85ebfbd"/>
+        <COMPID name="Lista&lt;Elemento&gt;" mc="Standard.DataType" uid="588be7e3-8819-4f06-abef-3596a1ca7bfc"/>
+        <COMPID name="Elemento" mc="Standard.DataType" uid="b8cd18de-b8f0-4f24-a6eb-6104da091a83"/>
+        <COMPID name="external" mc="Standard.Package" uid="7e9a01fc-b178-4646-99b8-6b14f08d5770"/>
+        <COMPID name="external" mc="Standard.Package" uid="acf91b49-196c-4bd3-95f8-51d2621ef6b5"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama_de_clases_de_diseño" mc="Standard.ClassDiagram" uid="bdf09d82-fada-4dff-aec5-f1823b844e8b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

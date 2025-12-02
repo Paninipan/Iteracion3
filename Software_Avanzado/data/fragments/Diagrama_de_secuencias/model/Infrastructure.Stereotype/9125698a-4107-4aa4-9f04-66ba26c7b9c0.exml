@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ETypeParameter" version="4">
+  <OBJECT>
+    <ID name="ETypeParameter" mc="Infrastructure.Stereotype" uid="9125698a-4107-4aa4-9f04-66ba26c7b9c0"/>
+    <PID name="Ecore" mc="Infrastructure.Profile" uid="d332fee3-0498-49b2-a49d-39386c2151d0"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[ETypeParameter]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.TemplateParameter]]></ATT>
+      <ATT name="Name"><![CDATA[ETypeParameter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="ENamedElement" mc="Infrastructure.Stereotype" uid="0554d787-bb28-4cf9-b342-a8d3a9eb8b2a"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="bounds" mc="Infrastructure.TagType" uid="ffcd820d-6eb1-4f7a-9a54-aeb511d61dfb"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[bounds]]></ATT>
+            <ATT name="Name"><![CDATA[bounds]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

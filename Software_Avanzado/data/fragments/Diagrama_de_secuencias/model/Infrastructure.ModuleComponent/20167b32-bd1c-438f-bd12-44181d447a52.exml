@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LocalModule" version="4">
+  <OBJECT>
+    <ID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="20167b32-bd1c-438f-bd12-44181d447a52"/>
+    <ATTRIBUTES>
+      <ATT name="LicenseKey">0</ATT>
+      <ATT name="MajVersion">0</ATT>
+      <ATT name="MinVersion">0</ATT>
+      <ATT name="MinMinVersion"></ATT>
+      <ATT name="MinBinVersionCompatibility"></ATT>
+      <ATT name="JavaClassName"></ATT>
+      <ATT name="Name"><![CDATA[LocalModule]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedProfile">
+        <COMPID name="LocalProfile" mc="Infrastructure.Profile" uid="57ba0988-60a6-4fd0-85b8-710bf722efcf"/>
+        <COMPID name="Standard" mc="Infrastructure.Profile" uid="12a293ad-671c-4939-8d19-00b754e5511d"/>
+        <COMPID name="Ecore" mc="Infrastructure.Profile" uid="d332fee3-0498-49b2-a49d-39386c2151d0"/>
+        <COMPID name="Standard" mc="Infrastructure.Profile" uid="86bd6af3-a68e-4873-bbb7-9648287057e8"/>
+        <COMPID name="Ecore" mc="Infrastructure.Profile" uid="31f121a9-e826-4adb-bdc1-1705ef59d6f8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

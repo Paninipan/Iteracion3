@@ -1,0 +1,313 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU-18/5.5" version="4">
+  <OBJECT>
+    <ID name="CU-18/5.5" mc="Standard.CommunicationInteraction" uid="b75ad829-81c8-4f52-8cf5-005cb60f282c"/>
+    <PID name="Diagramas_de_colaboración_de_diseño" mc="Standard.Package" uid="dfe61a04-bb9e-4b72-9c19-2bc11be09450"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[CU-18/5.5]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Owned">
+        <OBJECT>
+          <ID name="Controlador" mc="Standard.CommunicationNode" uid="f7ad034c-b9bd-461d-ba02-a63531b6c2e4"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Controlador]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="1.1 Get_Empleado(id_empleado input, Empleado out)" mc="Standard.CommunicationChannel" uid="58cdb577-e721-40d0-8348-c12612baa040"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[1.1 Get_Empleado(id_empleado input, Empleado out)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Empleado" mc="Standard.CommunicationNode" uid="52b1815f-3e51-45d5-a91a-4f44ccecd34e"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="" mc="Standard.CommunicationChannel" uid="89afb462-b77b-4ea8-a377-21f63705b598"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="StartToEndMessage">
+                    <OBJECT>
+                      <ID name="1 seleccionar_empleado(id_empleado input)" mc="Standard.CommunicationMessage" uid="01066f2f-aaa7-462b-ae62-bcd475a5804f"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"></ATT>
+                        <ATT name="Sequence"></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[1 seleccionar_empleado(id_empleado input)]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Usuario" mc="Standard.CommunicationNode" uid="4071c13f-1ebb-468f-9250-8be507d2d567"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="3.1 Set_Valores(Empleado input)" mc="Standard.CommunicationChannel" uid="6ee1cbed-4b4b-4d6b-bf46-896047ec1375"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[3.1 Set_Valores(Empleado input)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="id_Empleado: Empleado" mc="Standard.CommunicationNode" uid="d117e2f7-07f5-4a8b-b45f-9eb4a6d30fe5"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="2 get_Valores(Empleado out)" mc="Standard.CommunicationChannel" uid="a8ef7b47-2fd8-4458-ac4b-f66b22724c9c"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2 get_Valores(Empleado out)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="id_Empleado: Empleado" mc="Standard.CommunicationNode" uid="d117e2f7-07f5-4a8b-b45f-9eb4a6d30fe5"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="5 pedir_confirmacion()" mc="Standard.CommunicationChannel" uid="a6974caf-e4b1-4e95-a170-09e699acc731"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[5 pedir_confirmacion()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Usuario" mc="Standard.CommunicationNode" uid="4071c13f-1ebb-468f-9250-8be507d2d567"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="7 get_Valores(Empleado out)" mc="Standard.CommunicationChannel" uid="48b5b546-4874-45ae-9232-418ceb57ece5"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[7 get_Valores(Empleado out)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="id_Empleado: Empleado" mc="Standard.CommunicationNode" uid="d117e2f7-07f5-4a8b-b45f-9eb4a6d30fe5"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="7.1 Actualizar_Emlpeado(id_Empleado input, Empleado input)" mc="Standard.CommunicationChannel" uid="975688b8-df97-457e-847d-3e8925b5c879"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[7.1 Actualizar_Emlpeado(id_Empleado input, Empleado input)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Empleado" mc="Standard.CommunicationNode" uid="52b1815f-3e51-45d5-a91a-4f44ccecd34e"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="7.3 mostrar_mensaje(&quot;Modificado&quot; input)" mc="Standard.CommunicationChannel" uid="52ec64c8-eafd-4166-bf12-fa10176b6455"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[7.3 mostrar_mensaje("Modificado" input)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Usuario" mc="Standard.CommunicationNode" uid="4071c13f-1ebb-468f-9250-8be507d2d567"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Usuario" mc="Standard.CommunicationNode" uid="4071c13f-1ebb-468f-9250-8be507d2d567"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Usuario]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="" mc="Standard.CommunicationChannel" uid="ee29bdbf-5c6b-4b4f-8d15-21b53d5552e7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="StartToEndMessage">
+                    <OBJECT>
+                      <ID name="2.1 mostraEmpleados(empleado input)" mc="Standard.CommunicationMessage" uid="6b706db9-a744-455f-9777-87f3c5f7be5e"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"></ATT>
+                        <ATT name="Sequence"></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[2.1 mostraEmpleados(empleado input)]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Controlador" mc="Standard.CommunicationNode" uid="f7ad034c-b9bd-461d-ba02-a63531b6c2e4"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="3 Actualizar_Empleado(empleado input)" mc="Standard.CommunicationChannel" uid="3a1f4a6c-839e-41f3-9ae6-4d2ad79911b9"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[3 Actualizar_Empleado(empleado input)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Controlador" mc="Standard.CommunicationNode" uid="f7ad034c-b9bd-461d-ba02-a63531b6c2e4"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="6 dar_confirmación(bool input)" mc="Standard.CommunicationChannel" uid="a1826536-a7aa-4a44-97dd-2043a905af7c"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[6 dar_confirmación(bool input)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Controlador" mc="Standard.CommunicationNode" uid="f7ad034c-b9bd-461d-ba02-a63531b6c2e4"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="a5397a5e-205f-4578-98e1-037cd03722e8"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[FachadaBD]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Empleado" mc="Standard.CommunicationNode" uid="52b1815f-3e51-45d5-a91a-4f44ccecd34e"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Empleado]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="1.2 select * from empleados where id_empleado=input" mc="Standard.CommunicationChannel" uid="0c0013a7-dfcb-4f9b-9b5b-42ab220f39bc"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[1.2 select * from empleados where id_empleado=input]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="a5397a5e-205f-4578-98e1-037cd03722e8"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="7.2 update empleados set Empleado = input where id_empleado = input" mc="Standard.CommunicationChannel" uid="e7591dc5-31e7-4b2a-9dc5-961d0fc4e734"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[7.2 update empleados set Empleado = input where id_empleado = input]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="a5397a5e-205f-4578-98e1-037cd03722e8"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="id_Empleado: Empleado" mc="Standard.CommunicationNode" uid="d117e2f7-07f5-4a8b-b45f-9eb4a6d30fe5"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[id_Empleado: Empleado]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="4 comprobar_datos(Empleado input)" mc="Standard.CommunicationChannel" uid="8bb27327-39c8-42cd-a354-d04929eefd45"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[4 comprobar_datos(Empleado input)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="id_Empleado: Empleado" mc="Standard.CommunicationNode" uid="d117e2f7-07f5-4a8b-b45f-9eb4a6d30fe5"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Standard.Collaboration" uid="bc97b879-1cac-4f0b-a205-0849d6c59b3a"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DC(CU-18/5.5)" mc="Standard.CommunicationDiagram" uid="5d1c5982-bf18-441b-a7d4-cc0aea87a25e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

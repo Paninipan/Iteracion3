@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="diagrama_de_secuencias" version="4">
+  <OBJECT>
+    <ID name="diagrama_de_secuencias" mc="Standard.Package" uid="9e2187b6-9aa8-442c-8188-b5dab3b135f8"/>
+    <PID name="Artefacto_7" mc="Standard.Package" uid="05781b1d-6ab9-40be-8231-38ee38dedba6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[diagrama_de_secuencias]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="CU-18/5.5" mc="Standard.Interaction" uid="11527d4c-3f6b-42bc-bf83-0c32dbb7d837"/>
+        <COMPID name="CU-43/5.1" mc="Standard.Interaction" uid="3203ccb7-93be-4b80-9a5d-4b23ce34693f"/>
+        <COMPID name="CU-44/5.2" mc="Standard.Interaction" uid="53939f7e-efda-4caa-91dd-be4f49cb17c7"/>
+        <COMPID name="CU-45/5.3" mc="Standard.Interaction" uid="443933ff-6eff-49be-8690-2e06a30af087"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

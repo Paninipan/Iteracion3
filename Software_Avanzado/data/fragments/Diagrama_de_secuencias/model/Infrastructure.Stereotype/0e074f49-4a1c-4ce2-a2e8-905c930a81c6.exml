@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EEnum" version="4">
+  <OBJECT>
+    <ID name="EEnum" mc="Infrastructure.Stereotype" uid="0e074f49-4a1c-4ce2-a2e8-905c930a81c6"/>
+    <PID name="Ecore" mc="Infrastructure.Profile" uid="d332fee3-0498-49b2-a49d-39386c2151d0"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[EEnum]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Enumeration]]></ATT>
+      <ATT name="Name"><![CDATA[EEnum]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="ENamedElement" mc="Infrastructure.Stereotype" uid="0554d787-bb28-4cf9-b342-a8d3a9eb8b2a"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="enumName" mc="Infrastructure.TagType" uid="c4da3253-7ff4-401f-a901-99ce2566830f"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[enumName]]></ATT>
+            <ATT name="Name"><![CDATA[enumName]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

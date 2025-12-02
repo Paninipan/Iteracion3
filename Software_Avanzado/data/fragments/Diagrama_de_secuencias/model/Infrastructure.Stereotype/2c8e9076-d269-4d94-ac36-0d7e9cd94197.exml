@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Call" version="4">
+  <OBJECT>
+    <ID name="Call" mc="Infrastructure.Stereotype" uid="2c8e9076-d269-4d94-ac36-0d7e9cd94197"/>
+    <PID name="Standard" mc="Infrastructure.Profile" uid="86bd6af3-a68e-4873-bbb7-9648287057e8"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[Call]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Usage]]></ATT>
+      <ATT name="Name"><![CDATA[Call]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

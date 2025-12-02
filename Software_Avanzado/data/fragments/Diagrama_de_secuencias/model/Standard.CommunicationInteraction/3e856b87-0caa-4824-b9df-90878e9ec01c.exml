@@ -1,0 +1,560 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU-44/5.2" version="4">
+  <OBJECT>
+    <ID name="CU-44/5.2" mc="Standard.CommunicationInteraction" uid="3e856b87-0caa-4824-b9df-90878e9ec01c"/>
+    <PID name="Diagramas_de_colaboración_de_diseño" mc="Standard.Package" uid="58f14a0b-4959-4de3-b5c4-2d332c22077b"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[CU-44/5.2]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Owned">
+        <OBJECT>
+          <ID name="Usuario" mc="Standard.CommunicationNode" uid="99be93f0-3f41-49e1-9c09-0bad9b344c89"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Usuario]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="1 seleccionar_actividad(id_actividad input)" mc="Standard.CommunicationChannel" uid="19b3e22e-dbc2-406a-835f-bf5dd69b8c68"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[1 seleccionar_actividad(id_actividad input)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Controlador" mc="Standard.CommunicationNode" uid="a265047a-8f05-4585-a1bb-3757a6d1731f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="2.1 mostrar_actividad(Actividad input, void out)" mc="Standard.CommunicationChannel" uid="3718ae1c-05ee-451e-a488-126b09e217bb"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.1 mostrar_actividad(Actividad input, void out)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Controlador" mc="Standard.CommunicationNode" uid="a265047a-8f05-4585-a1bb-3757a6d1731f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="3 pedir_confirmacion()" mc="Standard.CommunicationChannel" uid="094275de-ba81-4cba-89d5-1bf1cb2a6161"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[3 pedir_confirmacion()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Controlador" mc="Standard.CommunicationNode" uid="a265047a-8f05-4585-a1bb-3757a6d1731f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="4 dar_confirmacion(bool input)" mc="Standard.CommunicationChannel" uid="a036b848-7a2d-4846-8b3a-d01ac72edf6b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[4 dar_confirmacion(bool input)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Controlador" mc="Standard.CommunicationNode" uid="a265047a-8f05-4585-a1bb-3757a6d1731f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Controlador" mc="Standard.CommunicationNode" uid="a265047a-8f05-4585-a1bb-3757a6d1731f"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Controlador]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="" mc="Standard.CommunicationChannel" uid="c213691e-3d2b-421b-bb3a-cec4dd653594"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Controlador" mc="Standard.CommunicationNode" uid="a265047a-8f05-4585-a1bb-3757a6d1731f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="1.1 obtener_actividad(id_actividad input, Actividad out)" mc="Standard.CommunicationChannel" uid="9bc8290b-cae2-440e-8506-53bd45b69db9"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[1.1 obtener_actividad(id_actividad input, Actividad out)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Actividad" mc="Standard.CommunicationNode" uid="361a03ec-c2e1-48ec-84aa-f59001699241"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="7.1 obtener_presos_relacionados(id_actividad input; Lista&lt;dni_preso&gt; out)" mc="Standard.CommunicationChannel" uid="36c7e754-1493-4a79-a685-f224f20d16bf"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[7.1 obtener_presos_relacionados(id_actividad input; Lista<dni_preso> out)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Preso" mc="Standard.CommunicationNode" uid="0239c146-e807-494e-b53c-8e5668a82ea8"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="7.3.1 eliminar_actividad_asignada(dni_preso, id_actividad input)" mc="Standard.CommunicationChannel" uid="67bda2a6-6463-4631-9a13-65c359c31183"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[7.3.1 eliminar_actividad_asignada(dni_preso, id_actividad input)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Preso" mc="Standard.CommunicationNode" uid="0239c146-e807-494e-b53c-8e5668a82ea8"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="2 get_actividad(Actividad out)" mc="Standard.CommunicationChannel" uid="6ec80dc6-896c-4d3f-83b5-86ca78cb70a7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2 get_actividad(Actividad out)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Id_Actividad" mc="Standard.CommunicationNode" uid="3e7f43a7-d677-484d-922f-ea49f7d3c129"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="6.1 obtener_presos_preferencias(id_actividad input; Lista&lt;Actividad_Pedida&gt; out)" mc="Standard.CommunicationChannel" uid="6f9a3c75-e7ee-481e-8efd-60c1293670c3"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[6.1 obtener_presos_preferencias(id_actividad input; Lista<Actividad_Pedida> out)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Preso" mc="Standard.CommunicationNode" uid="0239c146-e807-494e-b53c-8e5668a82ea8"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="8.1 eliminar_actividad_relacionada(id_actividad, dni_preso input)" mc="Standard.CommunicationChannel" uid="55e24c6d-3d03-461a-9d5c-b0afd0e83f11"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[8.1 eliminar_actividad_relacionada(id_actividad, dni_preso input)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Preso" mc="Standard.CommunicationNode" uid="0239c146-e807-494e-b53c-8e5668a82ea8"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="9 eliminar_actividad(id_actividad input)" mc="Standard.CommunicationChannel" uid="33f295c6-3279-4962-b20a-ebc46d1a334d"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[9 eliminar_actividad(id_actividad input)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Actividad" mc="Standard.CommunicationNode" uid="361a03ec-c2e1-48ec-84aa-f59001699241"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="10 mostrar_mensaje(&quot;borrado&quot; input)" mc="Standard.CommunicationChannel" uid="588e589d-198c-4c72-965a-f40dab124bcc"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[10 mostrar_mensaje("borrado" input)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Usuario" mc="Standard.CommunicationNode" uid="99be93f0-3f41-49e1-9c09-0bad9b344c89"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="5 get_fecha_hoy(Fecha out)" mc="Standard.CommunicationChannel" uid="37df2470-03b0-4232-9cc1-ba2884e0d278"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[5 get_fecha_hoy(Fecha out)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Controlador" mc="Standard.CommunicationNode" uid="a265047a-8f05-4585-a1bb-3757a6d1731f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="5.1 get_fecha_inicio(fecha_inicio out)" mc="Standard.CommunicationChannel" uid="b37e2010-35f8-4a65-8494-969b63bf96de"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[5.1 get_fecha_inicio(fecha_inicio out)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Id_Actividad" mc="Standard.CommunicationNode" uid="3e7f43a7-d677-484d-922f-ea49f7d3c129"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="5.2 comparar_fechas(Fecha, fecha_inicio input)" mc="Standard.CommunicationChannel" uid="9abce04c-32b2-4bfa-b0a0-f0cc3b9b4600"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[5.2 comparar_fechas(Fecha, fecha_inicio input)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Controlador" mc="Standard.CommunicationNode" uid="a265047a-8f05-4585-a1bb-3757a6d1731f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="6.4 recorrer_lista_actividad_pedida(dni_preso, id_actividad, preferencia output)" mc="Standard.CommunicationChannel" uid="8de1ae2f-6e2d-4825-b25a-874921a2c305"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[6.4 recorrer_lista_actividad_pedida(dni_preso, id_actividad, preferencia output)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="ListaPresos: Actividad_Pedida" mc="Standard.CommunicationNode" uid="93e3db1a-9c6d-4e00-9b24-b1569d18c0fd"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="6.4.1 update_preferencias(dni_preso, id_actividad, preferencia input)" mc="Standard.CommunicationChannel" uid="31a276fa-57c2-4baf-b52e-f2dcdb257f1f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[6.4.1 update_preferencias(dni_preso, id_actividad, preferencia input)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Actividad" mc="Standard.CommunicationNode" uid="361a03ec-c2e1-48ec-84aa-f59001699241"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="6 get_actividad(Actividad out)" mc="Standard.CommunicationChannel" uid="f7267d02-80b7-4d34-97dc-90bf6e1f1dfd"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[6 get_actividad(Actividad out)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Id_Actividad" mc="Standard.CommunicationNode" uid="3e7f43a7-d677-484d-922f-ea49f7d3c129"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="a875a5b6-9bdb-483b-be42-b70bc60ff089"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[FachadaBD]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Actividad" mc="Standard.CommunicationNode" uid="361a03ec-c2e1-48ec-84aa-f59001699241"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Actividad]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="1.2 select * from actividad where id_actividad=input" mc="Standard.CommunicationChannel" uid="ad0b1e67-497d-4a3a-b33e-22b7db9bce01"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[1.2 select * from actividad where id_actividad=input]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="a875a5b6-9bdb-483b-be42-b70bc60ff089"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="9.1 delete from actividad where id_actividad=input" mc="Standard.CommunicationChannel" uid="949aa22b-44b6-47ff-a117-bbd7a69c87f2"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[9.1 delete from actividad where id_actividad=input]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="a875a5b6-9bdb-483b-be42-b70bc60ff089"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="6.4.2 update actividad_pedida set preferencia=input, where dni_preso=input and id_actividad=input" mc="Standard.CommunicationChannel" uid="833f9598-8088-4d19-827f-bcfc2448c6b6"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[6.4.2 update actividad_pedida set preferencia=input, where dni_preso=input and id_actividad=input]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="a875a5b6-9bdb-483b-be42-b70bc60ff089"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Preso" mc="Standard.CommunicationNode" uid="0239c146-e807-494e-b53c-8e5668a82ea8"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Preso]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="7.2 select dni_presos from actividad_asignada where id_actividad=input" mc="Standard.CommunicationChannel" uid="e7cd196f-9dd8-426e-8022-9c3d2fdd75d3"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[7.2 select dni_presos from actividad_asignada where id_actividad=input]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="a875a5b6-9bdb-483b-be42-b70bc60ff089"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="7.3.2 delete from actividad_asignada where dni_preso=input and id_actividad=input" mc="Standard.CommunicationChannel" uid="627f8e82-079c-443b-aeef-baf8cefe9e64"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[7.3.2 delete from actividad_asignada where dni_preso=input and id_actividad=input]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="a875a5b6-9bdb-483b-be42-b70bc60ff089"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="6.2  select *  from ctividad_pedida where id_actividad= input" mc="Standard.CommunicationChannel" uid="0f73a6c3-fb16-4710-94b1-82b8c8a85a2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[6.2  select *  from ctividad_pedida where id_actividad= input]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="a875a5b6-9bdb-483b-be42-b70bc60ff089"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="8.2 delete from activida_pedida where id_actividad=input and dni_preso=input" mc="Standard.CommunicationChannel" uid="5e70b773-d2a6-438a-ba92-6527c74431e3"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[8.2 delete from activida_pedida where id_actividad=input and dni_preso=input]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="a875a5b6-9bdb-483b-be42-b70bc60ff089"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Id_Actividad" mc="Standard.CommunicationNode" uid="3e7f43a7-d677-484d-922f-ea49f7d3c129"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Id_Actividad]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ListaPresos: Actividad_Pedida" mc="Standard.CommunicationNode" uid="93e3db1a-9c6d-4e00-9b24-b1569d18c0fd"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[ListaPresos: Actividad_Pedida]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="6.3 actualizar_preferencias(id_actividad input)" mc="Standard.CommunicationChannel" uid="cc34d30c-5b41-449b-ab21-ecb190f07328"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[6.3 actualizar_preferencias(id_actividad input)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Controlador" mc="Standard.CommunicationNode" uid="a265047a-8f05-4585-a1bb-3757a6d1731f"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="Descriptor">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.Note" uid="df34b798-55ff-4fec-89f7-3554e3f8db2e"/>
+                      <ATTRIBUTES>
+                        <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                        <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Model">
+                          <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="7 get_actividad(Actividad out)" mc="Standard.CommunicationChannel" uid="2e7b8026-bb63-45eb-aa0e-ae0e11afd459"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[7 get_actividad(Actividad out)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Controlador" mc="Standard.CommunicationNode" uid="a265047a-8f05-4585-a1bb-3757a6d1731f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="8 recorrer_lista_actividad_pedida(dni_preso, id_actividad, preferencia output)" mc="Standard.CommunicationChannel" uid="a63caf84-4354-4258-8a56-ad6538a4c047"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[8 recorrer_lista_actividad_pedida(dni_preso, id_actividad, preferencia output)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Controlador" mc="Standard.CommunicationNode" uid="a265047a-8f05-4585-a1bb-3757a6d1731f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Lista&lt;dni_presos&gt;:ActividadAsignada" mc="Standard.CommunicationNode" uid="f474e697-7603-4320-aca0-db158a805bbc"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Lista<dni_presos>:ActividadAsignada]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="7.3 recorrer_lista_presos(dni_preso output)" mc="Standard.CommunicationChannel" uid="53688306-193f-4cb7-9afb-2db948a24b9a"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[7.3 recorrer_lista_presos(dni_preso output)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Controlador" mc="Standard.CommunicationNode" uid="a265047a-8f05-4585-a1bb-3757a6d1731f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Standard.Collaboration" uid="beaaeec8-5c4f-4ddb-8f94-c9ad4476ab8a"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DC(CU-44/5.2)" mc="Standard.CommunicationDiagram" uid="ab3a3ecc-f685-4c78-91c2-61797b8ac8a7"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

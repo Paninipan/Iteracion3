@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Artefacto_3" version="4">
+  <OBJECT>
+    <ID name="Artefacto_3" mc="Standard.Package" uid="a871289c-c9b5-45cc-bf05-6dc0c0dfe03f"/>
+    <PID name="Diagrama_de_secuencias" mc="Standard.Project" uid="395de9d8-60ff-461a-8b5a-23b255a71f18"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Artefacto_3]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CU-08 Consulta visitas" mc="Standard.UseCase" uid="1f4edf83-c8b6-4eea-b1cb-6708a745b325"/>
+        <COMPID name="Director" mc="Standard.Actor" uid="5a0a1c72-eab3-493c-9ba8-a4191f0e1f40"/>
+        <COMPID name="CU-09 Modificar informes" mc="Standard.UseCase" uid="932eed06-a7ec-4445-a0fb-d73cbf1eb0fb"/>
+        <COMPID name="CU-10 Modificar condena" mc="Standard.UseCase" uid="24e54772-ce9b-47f8-aab2-571b2e7b4f55"/>
+        <COMPID name="CU-11 Eliminar preso" mc="Standard.UseCase" uid="e769a105-1671-4998-8b02-71ba5ce9663c"/>
+        <COMPID name="CU-40 Ceder rol" mc="Standard.UseCase" uid="9f65d215-da65-4ca6-a2ed-810784319e71"/>
+        <COMPID name="CU-42 Alta de cárcel" mc="Standard.UseCase" uid="b40badec-10e4-4dd4-b8c2-4905cecf40df"/>
+        <COMPID name="Departamento de Coordinación de Actividades" mc="Standard.Actor" uid="3c283c3b-7594-4411-a83c-a0e4f385e18e"/>
+        <COMPID name="CU-21 Asignación de valor en reducción" mc="Standard.UseCase" uid="d5e940f2-ee90-483a-9bf9-7408526ee1a7"/>
+        <COMPID name="CU-32 Consulta de asignaciones" mc="Standard.UseCase" uid="0ad5fd21-90c5-4f97-a513-b3ebc1cfd376"/>
+        <COMPID name="CU-33 Asignar/Desasignar actividad" mc="Standard.UseCase" uid="c80183b7-9ecc-41ec-b9bd-2f4153d2ab1e"/>
+        <COMPID name="CU-43 Asignación de actividades a presos" mc="Standard.UseCase" uid="7595f77b-a352-4d04-a40b-edae56116845"/>
+        <COMPID name="CU-44 Eliminar actividad validada" mc="Standard.UseCase" uid="36f35bed-6906-4197-8c1e-b5b828920223"/>
+        <COMPID name="CU-45 Lista de presos de una actividad" mc="Standard.UseCase" uid="80feed5a-bd74-4384-b92e-2403e879b924"/>
+        <COMPID name="CU-47 Consultar actividades de un responsable" mc="Standard.UseCase" uid="b4134046-e7eb-413b-9951-d00927f41b87"/>
+        <COMPID name="Profesores" mc="Standard.Actor" uid="4de7444c-89a4-4bee-a736-289112df8867"/>
+        <COMPID name="CU-36 Identificarse" mc="Standard.UseCase" uid="9be08aea-06d6-4573-90c7-47f3e4c0c621"/>
+        <COMPID name="CU-35 Saber su horario" mc="Standard.UseCase" uid="357ff7ac-55e7-4f51-b97b-78b14fa33e9e"/>
+        <COMPID name="CU-37 Pasar asistencia" mc="Standard.UseCase" uid="1c1b6a0b-d089-4fe4-9f04-6da47d654316"/>
+        <COMPID name="CU-34 Certificar actividad preso" mc="Standard.UseCase" uid="541c4fdb-2f9a-4c42-afc9-2688a385586a"/>
+        <COMPID name="CU-46 Consultar clases de un curso" mc="Standard.UseCase" uid="4cd0d0ae-cf53-4fc6-9a0b-697652c69391"/>
+        <COMPID name="Centros de educación a distancia" mc="Standard.Actor" uid="77ce34a5-a4e5-4fce-90b1-d15157ecc67d"/>
+        <COMPID name="Trabajador Social" mc="Standard.Actor" uid="bb47065d-eae1-44c3-b35e-03c74c4d8c4e"/>
+        <COMPID name="CU-03 Manejo de información de presos" mc="Standard.UseCase" uid="4a14454c-2c7b-4307-8fb5-23c850560af7"/>
+        <COMPID name="CU-04 Recepción listado visitas" mc="Standard.UseCase" uid="b986bae3-8727-48ff-b9a0-16770dfd89e6"/>
+        <COMPID name="CU-05 Planificación Visitas" mc="Standard.UseCase" uid="06958142-2d41-4da0-9523-67a1bfcf8909"/>
+        <COMPID name="CU-06 Modificación visitas" mc="Standard.UseCase" uid="d8c19713-f9f9-41a9-82d3-78fd7b43cafe"/>
+        <COMPID name="CU-07 Redacción de informe" mc="Standard.UseCase" uid="bf9f4e25-e80e-4631-a7ef-644055540f92"/>
+        <COMPID name="CU-25 Presos Inscripción actividades" mc="Standard.UseCase" uid="95e5cd55-4e79-42e5-b095-ea6478fa5995"/>
+        <COMPID name="CU-27 Mirar actividades presos" mc="Standard.UseCase" uid="2f592750-0183-4469-8b87-ccb5d422c5ae"/>
+        <COMPID name="CU-28 Mirar tareas hechas presos" mc="Standard.UseCase" uid="9718c3df-c5ad-48b8-8acf-9d32b77bfbac"/>
+        <COMPID name="CU-26 Renuncia de actividad preso" mc="Standard.UseCase" uid="01452357-53c8-4066-b02e-6ad4ac7282a8"/>
+        <COMPID name="Presos" mc="Standard.Actor" uid="88c4d4e6-5740-4700-a6dc-1f9a91fde792"/>
+        <COMPID name="Centros educativos a distancia" mc="Standard.Actor" uid="cb4699a2-7f4d-465e-beb4-7cf4db1ac360"/>
+        <COMPID name="CU-02 Certificar resultados académicos a distacia" mc="Standard.UseCase" uid="633767fd-1dfa-45f9-9429-f825040fe762"/>
+        <COMPID name="Profesores curso taller" mc="Standard.Actor" uid="2d201210-e5af-4641-ae4a-b1025469327c"/>
+        <COMPID name="Departamento de Seguimiento y Gestión de Presos" mc="Standard.Actor" uid="d6748f1a-9a11-406f-8c39-2a24d602713e"/>
+        <COMPID name="CU-12 Consulta de visitas e informes" mc="Standard.UseCase" uid="b41ea22c-1e2a-4200-8f6a-40e521828369"/>
+        <COMPID name="CU-13 Modificación de visitas" mc="Standard.UseCase" uid="511e4ba2-453a-4442-9c35-ef1e57f1d513"/>
+        <COMPID name="CU-29 Añadir un nuevo preso con sus datos" mc="Standard.UseCase" uid="aec0b383-3641-4329-83c4-68a2ea368d4d"/>
+        <COMPID name="CU-19 Consulta de datos de presos por empleados" mc="Standard.UseCase" uid="d091661b-b086-4d82-9269-47d63b6361d9"/>
+        <COMPID name="Departamento de Recursos Humanos" mc="Standard.Actor" uid="6f5c4cba-415a-4038-b3d4-a9459e20bdf6"/>
+        <COMPID name="CU-17 Comparación entre datos reales y planificados" mc="Standard.UseCase" uid="66849811-1092-4323-a36d-c00b95557ed5"/>
+        <COMPID name="CU-18 Gestión de altas, bajas y modificaciones empleados" mc="Standard.UseCase" uid="e86bf81c-cf0d-4911-91b6-5566db193e3c"/>
+        <COMPID name="CU-39 Modificación de datos del trabajador" mc="Standard.UseCase" uid="c941ce7a-276c-440e-856c-9a380112d373"/>
+        <COMPID name="Sistema" mc="Standard.Actor" uid="af112065-2a17-437a-b0aa-4208d4a8f29f"/>
+        <COMPID name="Departamento de Control de Accesos" mc="Standard.Actor" uid="ed2995ae-8fea-4891-948e-e6e4927a8aad"/>
+        <COMPID name="CU-14 Consulta de lista de accesos diarios" mc="Standard.UseCase" uid="fa554414-d1bf-42c7-a470-a022e78fe667"/>
+        <COMPID name="CU-15 Procesamiento de fichajes de entrada y salida" mc="Standard.UseCase" uid="fe858054-b93f-4dac-90a8-91fe6b409838"/>
+        <COMPID name="CU-16 Generar alertas de error en accesos inválidos" mc="Standard.UseCase" uid="50090bdf-89b1-4947-8dc0-715b7ee50e1c"/>
+        <COMPID name="Preso" mc="Standard.Actor" uid="a636befa-3714-4cea-9f3e-c142bf009ee9"/>
+        <COMPID name="Trabajadores Sociales" mc="Standard.Actor" uid="0654c175-cc9b-4b60-8221-7f8288474539"/>
+        <COMPID name="Sistema Prisión" mc="Standard.Actor" uid="fa66b0e1-e382-40e3-9ede-8bcb25957c30"/>
+        <COMPID name="CU-38 Dar de baja / eliminar distintas entidades" mc="Standard.UseCase" uid="8ea3be35-0095-49f4-baf0-acc7c0eca258"/>
+        <COMPID name="CU-41 Eliminar / dar de baja una cárcel" mc="Standard.UseCase" uid="9b3ca660-dc09-4666-885c-92d8a1805f5d"/>
+        <COMPID name="CU-48 Identificación de usuario" mc="Standard.UseCase" uid="64b696ca-04f4-42ad-a812-d3927dabafcd"/>
+        <COMPID name="Dep. Recursos Humanos" mc="Standard.Actor" uid="2b1ae8eb-306f-4e1f-8afc-2d910576f2fa"/>
+        <COMPID name="Dep. Control de Accesos" mc="Standard.Actor" uid="0df3c5c1-a152-4a64-8141-49360bf110bd"/>
+        <COMPID name="CU-01 Registrar horas preso en trabajo" mc="Standard.UseCase" uid="7418ef92-5de1-478f-bb65-8329fdbe8e13"/>
+        <COMPID name="CU-20 Consulta de datos personales propios" mc="Standard.UseCase" uid="813b5ccc-b209-4ece-a116-f55f936a6443"/>
+        <COMPID name="CU-30 Personal ve actividades de presos" mc="Standard.UseCase" uid="642746eb-a331-4e0e-be7e-d093580d1ca3"/>
+        <COMPID name="CU-31 Preso realiza actividad en un taller " mc="Standard.UseCase" uid="1764ba25-a018-407b-98e5-da035284e1eb"/>
+        <COMPID name="Jefe del Dpto. de Coordinación de Actividades" mc="Standard.Actor" uid="c068c6fd-6f78-4985-aa77-df9ff224b217"/>
+        <COMPID name="CU-22 Validación actividad de preso" mc="Standard.UseCase" uid="efad3ffe-ddc4-4024-a3b8-2707b3a7ce0b"/>
+        <COMPID name="CU-23 Eliminación de actividades" mc="Standard.UseCase" uid="61a43a4d-ff2c-453e-8f61-5468012d3bf0"/>
+        <COMPID name="CU-24 Modificación de actividades " mc="Standard.UseCase" uid="8c3b64f5-ba1c-4252-a57a-dd0e3f3c90df"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Jefe del Dpto. de Coordinación de Atividades" mc="Standard.UseCaseDiagram" uid="dd63f37c-2dde-4ee6-b91d-f3f4a02c2e83"/>
+        <COMPID name="Departamento de Coordinación de Actividades" mc="Standard.UseCaseDiagram" uid="2cebf02e-eb2c-4014-913b-9c759db1b2e6"/>
+        <COMPID name="Profesores de Cursos y Talleres" mc="Standard.UseCaseDiagram" uid="d6222a0a-cb8b-49fb-a98b-543e994223bf"/>
+        <COMPID name="Trabajadores Sociales" mc="Standard.UseCaseDiagram" uid="0c7bc108-a13e-4e68-a8e5-9d0c7efdb95e"/>
+        <COMPID name="Centros educativos a distancia" mc="Standard.UseCaseDiagram" uid="6db0b9dc-88fd-4b9d-b4f8-08df56249e18"/>
+        <COMPID name="Departamento de Segimiento y Gestión de presos" mc="Standard.UseCaseDiagram" uid="493a2d4f-3522-44b8-b8ab-1b57b6d2706b"/>
+        <COMPID name="Departamento de Recursos Humanos" mc="Standard.UseCaseDiagram" uid="6127f0c3-e822-4368-b70b-91e32406b49e"/>
+        <COMPID name="Departamento de Control de Accesos" mc="Standard.UseCaseDiagram" uid="c851b331-b4e9-4ef3-a557-115604d8ffe1"/>
+        <COMPID name="Presos" mc="Standard.UseCaseDiagram" uid="498efa1f-6352-4137-97a9-53c662bea7d4"/>
+        <COMPID name="Sistema" mc="Standard.UseCaseDiagram" uid="142f4ba0-9cd2-47d2-8bd9-85b38a18ca52"/>
+        <COMPID name="Director" mc="Standard.UseCaseDiagram" uid="604f9b88-c67c-41c0-83a4-9a4f8f3928a0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

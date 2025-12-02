@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagrama_de_secuencias" version="4">
+  <OBJECT>
+    <ID name="Diagrama_de_secuencias" mc="Standard.Project" uid="395de9d8-60ff-461a-8b5a-23b255a71f18"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Diagrama_de_secuencias]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="Artefacto_8" mc="Standard.Package" uid="90f5c15d-80e2-4641-ab43-8525d3d8aecc"/>
+        <COMPID name="Artefacto_3" mc="Standard.Package" uid="a871289c-c9b5-45cc-bf05-6dc0c0dfe03f"/>
+        <COMPID name="Artefacto_7" mc="Standard.Package" uid="05781b1d-6ab9-40be-8231-38ee38dedba6"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Diagrama_de_secuencias" mc="Infrastructure.DiagramSet" uid="f86614fd-e718-4ae6-9f0b-fb445e08bb47"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

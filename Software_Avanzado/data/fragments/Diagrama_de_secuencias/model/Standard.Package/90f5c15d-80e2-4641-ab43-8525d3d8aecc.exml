@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Artefacto_8" version="4">
+  <OBJECT>
+    <ID name="Artefacto_8" mc="Standard.Package" uid="90f5c15d-80e2-4641-ab43-8525d3d8aecc"/>
+    <PID name="Diagrama_de_secuencias" mc="Standard.Project" uid="395de9d8-60ff-461a-8b5a-23b255a71f18"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Artefacto_8]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Fachada" mc="Standard.Class" uid="f54ddec2-11aa-429b-b847-f9d86f7f3024"/>
+        <COMPID name="Base de datos" mc="Standard.Class" uid="fd3ae069-aa5d-45ea-bb61-c15654831500"/>
+        <COMPID name="Actividad" mc="Standard.Class" uid="5f1e7294-4c99-4804-904d-bc7fc44edf7a"/>
+        <COMPID name="Controlador" mc="Standard.Class" uid="2373c64e-eef4-406a-9f92-f0d8b806abd4"/>
+        <COMPID name="Fachada" mc="Standard.Class" uid="33566864-39f8-45d9-8e52-e3cf2e8a8ec9"/>
+        <COMPID name="Empleado" mc="Standard.Class" uid="fc4b99d6-d107-49f7-9fd0-11af502852aa"/>
+        <COMPID name="Fachada" mc="Standard.Class" uid="fb759ea5-2018-4585-9957-63325d58ae8b"/>
+        <COMPID name="Controlador" mc="Standard.Class" uid="261b3bed-d966-4cad-93e6-df7f8572d1a2"/>
+        <COMPID name="PresoActividad" mc="Standard.Class" uid="ad92609a-39f4-4105-bc11-5a1bf91c86ae"/>
+        <COMPID name="Actividad" mc="Standard.Class" uid="3ed9faf2-fee0-4f6f-95a2-bc9c474ac44e"/>
+        <COMPID name="Preso" mc="Standard.Class" uid="9a356b3f-e526-4b3e-916c-6163bbbf8ed4"/>
+        <COMPID name="Fachada" mc="Standard.Class" uid="1cd4432d-c66e-46c0-bc77-4ebb02ede6cb"/>
+        <COMPID name="Controlador" mc="Standard.Class" uid="ddd4fdfc-65be-4dec-ac92-55b8935cee9c"/>
+        <COMPID name="Actividad" mc="Standard.Class" uid="34cb9341-763a-4bbf-98b6-e35c90d5d6b1"/>
+        <COMPID name="Empleado" mc="Standard.Class" uid="c410b5e1-c461-4e5f-b35e-e7b8d34645a1"/>
+        <COMPID name="Preso" mc="Standard.Class" uid="2bf8d910-7993-4525-b5b6-7afdaa23318b"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="8.2.3" mc="Standard.ClassDiagram" uid="63bb6383-9d95-46f4-b4d4-8d4dc08bb9b1"/>
+        <COMPID name="8.2.2" mc="Standard.ClassDiagram" uid="41868082-3578-490a-84eb-7284196f69bb"/>
+        <COMPID name="8.2.1b" mc="Standard.ClassDiagram" uid="cba2e9cd-b347-40fe-a582-25eafd00bcd2"/>
+        <COMPID name="8.2.1a" mc="Standard.ClassDiagram" uid="a3d0db98-29b2-4780-8165-43d95a4f1b7a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

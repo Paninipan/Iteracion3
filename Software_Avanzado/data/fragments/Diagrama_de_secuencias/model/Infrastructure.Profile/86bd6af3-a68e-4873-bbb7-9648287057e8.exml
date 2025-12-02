@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Standard" version="4">
+  <OBJECT>
+    <ID name="Standard" mc="Infrastructure.Profile" uid="86bd6af3-a68e-4873-bbb7-9648287057e8"/>
+    <PID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="20167b32-bd1c-438f-bd12-44181d447a52"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Standard]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="Auxiliary" mc="Infrastructure.Stereotype" uid="1f58a341-c062-4262-882f-9223850336dd"/>
+        <COMPID name="BuildComponent" mc="Infrastructure.Stereotype" uid="e33156eb-37bb-4e57-9c8e-debed229127c"/>
+        <COMPID name="Create_ModelElement" mc="Infrastructure.Stereotype" uid="819ddf0a-643a-43cc-8cab-8d7a5403751b"/>
+        <COMPID name="Create_Standard.Usage" mc="Infrastructure.Stereotype" uid="193daaf1-9b58-49e3-9a22-e9336db60d66"/>
+        <COMPID name="Call" mc="Infrastructure.Stereotype" uid="2c8e9076-d269-4d94-ac36-0d7e9cd94197"/>
+        <COMPID name="Derive" mc="Infrastructure.Stereotype" uid="e778576a-1c57-4593-a2d6-c89ae9c4a1b6"/>
+        <COMPID name="Destroy" mc="Infrastructure.Stereotype" uid="28bef004-ce9d-45a0-b226-f41d8df1dae9"/>
+        <COMPID name="Focus" mc="Infrastructure.Stereotype" uid="89d295f1-741c-4352-9951-d9750d654c75"/>
+        <COMPID name="Framework" mc="Infrastructure.Stereotype" uid="ab005064-b081-4e3a-92bb-6d88d26627c4"/>
+        <COMPID name="Implement" mc="Infrastructure.Stereotype" uid="e8a0dc99-e09a-4c9b-9cc2-97e160ee1eec"/>
+        <COMPID name="ImplementationClass" mc="Infrastructure.Stereotype" uid="6d0c0d41-a5bc-425f-be4f-ee6b27c432aa"/>
+        <COMPID name="Instantiate" mc="Infrastructure.Stereotype" uid="e22fe196-cfc9-4a83-a50f-54105aa22dda"/>
+        <COMPID name="Metaclass" mc="Infrastructure.Stereotype" uid="caa03a5d-c3ae-4573-9607-a4a6e67bd86f"/>
+        <COMPID name="ModelLibrary" mc="Infrastructure.Stereotype" uid="2c93bcac-4ee9-4890-a133-0c94d7095898"/>
+        <COMPID name="Refine" mc="Infrastructure.Stereotype" uid="b3b64a73-5734-4478-933b-402e52597fe8"/>
+        <COMPID name="Responsibility" mc="Infrastructure.Stereotype" uid="99b05cfd-5af1-4a4d-ad23-e27a3e530bd2"/>
+        <COMPID name="Script" mc="Infrastructure.Stereotype" uid="e5927f63-b0e2-4b6e-86f7-8395a199ff1f"/>
+        <COMPID name="Send" mc="Infrastructure.Stereotype" uid="84663913-e523-4b40-88f7-8243f8d4e621"/>
+        <COMPID name="Trace" mc="Infrastructure.Stereotype" uid="70a290ec-381f-4ccd-b59a-372285a813ae"/>
+        <COMPID name="Type" mc="Infrastructure.Stereotype" uid="e4a5cc2e-095b-4c4b-9d37-4caad2741881"/>
+        <COMPID name="Utility" mc="Infrastructure.Stereotype" uid="df3feb7b-231b-47cd-92aa-ed7c79c1633e"/>
+        <COMPID name="Document" mc="Infrastructure.Stereotype" uid="8f763b42-046f-4f22-9095-5fd54af72a30"/>
+        <COMPID name="Entity" mc="Infrastructure.Stereotype" uid="8c1d21fa-a29c-43be-b7c9-1cacf331e631"/>
+        <COMPID name="Executable" mc="Infrastructure.Stereotype" uid="2fa85212-123a-4c1a-a9d9-433fd1c3aaf3"/>
+        <COMPID name="File" mc="Infrastructure.Stereotype" uid="13371eb8-47b6-44c8-aacd-1ad82b652c23"/>
+        <COMPID name="Library" mc="Infrastructure.Stereotype" uid="81bd75cb-4354-40d9-83e8-7df935e658ed"/>
+        <COMPID name="Process" mc="Infrastructure.Stereotype" uid="a89977ff-51db-4117-9c1a-992d8b472d74"/>
+        <COMPID name="Realization_Standard.Classifier" mc="Infrastructure.Stereotype" uid="c7ed1c90-53ff-4dbc-aa0c-8dca3d77eb10"/>
+        <COMPID name="Realization_Standard.Collaboration" mc="Infrastructure.Stereotype" uid="b70573df-8ac1-4c08-9c13-c736807b42b1"/>
+        <COMPID name="Realization_Standard.Association" mc="Infrastructure.Stereotype" uid="41eb3fab-7815-4d80-8206-135174b5d325"/>
+        <COMPID name="Service" mc="Infrastructure.Stereotype" uid="0255b32c-927a-478a-826c-77f82486fd29"/>
+        <COMPID name="Source" mc="Infrastructure.Stereotype" uid="c7be3dab-810c-43c9-bca8-a7644e7d784b"/>
+        <COMPID name="Specification_Standard.Classifier" mc="Infrastructure.Stereotype" uid="31a5ddcd-8f3d-4336-b0cf-7c50022dfed6"/>
+        <COMPID name="Specification_Standard.Collaboration" mc="Infrastructure.Stereotype" uid="093b04c4-362b-43c7-ae55-ca882717daf1"/>
+        <COMPID name="Specification_Standard.Association" mc="Infrastructure.Stereotype" uid="dd218d78-9239-453f-813c-a610cc4ff371"/>
+        <COMPID name="Subsystem" mc="Infrastructure.Stereotype" uid="1a6eed9d-b2d2-4462-ad93-7ada502bf6a8"/>
+        <COMPID name="Metamodel" mc="Infrastructure.Stereotype" uid="9d6d2d9a-eeb4-498b-989c-5e19b39ffd3a"/>
+        <COMPID name="SystemModel" mc="Infrastructure.Stereotype" uid="b0e01ead-7730-4350-8ad6-61c5be4f060e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Ecore" version="4">
+  <OBJECT>
+    <ID name="Ecore" mc="Infrastructure.Profile" uid="31f121a9-e826-4adb-bdc1-1705ef59d6f8"/>
+    <PID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="20167b32-bd1c-438f-bd12-44181d447a52"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Ecore]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="EPackage" mc="Infrastructure.Stereotype" uid="a61eb67c-0c7b-4127-b60f-3b784b2b30e7"/>
+        <COMPID name="ENamedElement" mc="Infrastructure.Stereotype" uid="6a0276ca-938f-4e5a-91ea-ea5d74d58cc8"/>
+        <COMPID name="EClassifier" mc="Infrastructure.Stereotype" uid="06b52fe0-bbc0-482a-b911-fbd662805431"/>
+        <COMPID name="Extend" mc="Infrastructure.Stereotype" uid="2aa925a5-4296-4a3c-856b-20418dc3907f"/>
+        <COMPID name="EClass_Standard.Class" mc="Infrastructure.Stereotype" uid="fcfe78d8-3245-48dd-8b44-53d6eb764c01"/>
+        <COMPID name="EClass_Standard.Interface" mc="Infrastructure.Stereotype" uid="23717139-ec45-40ab-a268-41ccc569d818"/>
+        <COMPID name="EClass_Standard.DataType" mc="Infrastructure.Stereotype" uid="502a7c2c-166b-4cb5-986f-15a3464a8444"/>
+        <COMPID name="EClass_Standard.Association" mc="Infrastructure.Stereotype" uid="cbf67b10-9982-4942-adfc-ab7ce537f479"/>
+        <COMPID name="EDataType" mc="Infrastructure.Stereotype" uid="9fd4edc0-db03-401d-bdf1-5bc87b0e03d7"/>
+        <COMPID name="EEnum" mc="Infrastructure.Stereotype" uid="ccc714ce-1cb9-4cdd-8929-5fa088830b2f"/>
+        <COMPID name="EEnumLiteral" mc="Infrastructure.Stereotype" uid="8a032179-f6c5-4cd0-b11c-704b7b8cf529"/>
+        <COMPID name="EOperation" mc="Infrastructure.Stereotype" uid="e2fd8085-6c4d-4391-8b20-eb2f4168bcc3"/>
+        <COMPID name="EParameter" mc="Infrastructure.Stereotype" uid="1edb89fa-065b-4c68-a407-09a1894b85cf"/>
+        <COMPID name="EStructuralFeature" mc="Infrastructure.Stereotype" uid="d98e1355-62e0-4fe3-b78a-b72a61aba1e2"/>
+        <COMPID name="EAttribute_Standard.AssociationEnd" mc="Infrastructure.Stereotype" uid="856846fe-e813-4058-ab37-70a61d61ef1f"/>
+        <COMPID name="EAttribute_Standard.Attribute" mc="Infrastructure.Stereotype" uid="f80f2cd6-c6af-40b6-bab5-9fe2ddbf1310"/>
+        <COMPID name="EAttribute_Standard.BindableInstance" mc="Infrastructure.Stereotype" uid="19f98539-34bd-4a18-9c4d-bcc739645957"/>
+        <COMPID name="EReference_Standard.AssociationEnd" mc="Infrastructure.Stereotype" uid="b2a3cbc2-2e2c-4540-820d-8e1046ab2808"/>
+        <COMPID name="EReference_Standard.Attribute" mc="Infrastructure.Stereotype" uid="44af4a38-acd0-4c5b-83db-26f43cd13ae8"/>
+        <COMPID name="EReference_Standard.BindableInstance" mc="Infrastructure.Stereotype" uid="14855110-24a6-4a99-b468-830dd5ba2a53"/>
+        <COMPID name="ETypeParameter" mc="Infrastructure.Stereotype" uid="df1de5ca-a10d-4d27-bcbb-ab606bff121b"/>
+        <COMPID name="EGenericType_Standard.Class" mc="Infrastructure.Stereotype" uid="22677223-6891-4fc1-9581-544c35ebbf11"/>
+        <COMPID name="EGenericType_Standard.Interface" mc="Infrastructure.Stereotype" uid="10bd258b-5828-4e82-a246-493fdecd4f8c"/>
+        <COMPID name="EGenericType_Standard.DataType" mc="Infrastructure.Stereotype" uid="bfea0488-b076-4273-8e58-9130200f3f63"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="obtener_presos_relacionados(id_actividad input, ListaPresos out)" version="4">
+  <OBJECT>
+    <ID name="obtener_presos_relacionados(id_actividad input, ListaPresos out)" mc="Standard.DataType" uid="58eaafcb-2f56-4506-9a55-ee2e55a2b9f6"/>
+    <PID name="Controlador" mc="Standard.Class" uid="b5673920-d3fd-49a9-882a-9d9c97b8b170"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[obtener_presos_relacionados(id_actividad input, ListaPresos out)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagramas_de_colaboración_de_diseño" version="4">
+  <OBJECT>
+    <ID name="Diagramas_de_colaboración_de_diseño" mc="Standard.Package" uid="58f14a0b-4959-4de3-b5c4-2d332c22077b"/>
+    <PID name="Artefacto_7" mc="Standard.Package" uid="05781b1d-6ab9-40be-8231-38ee38dedba6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Diagramas_de_colaboración_de_diseño]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="CU-44/5.2" mc="Standard.CommunicationInteraction" uid="3e856b87-0caa-4824-b9df-90878e9ec01c"/>
+        <COMPID name="CU-45/5.3" mc="Standard.CommunicationInteraction" uid="4d0f2aef-3ed9-4bbb-9d79-0035cc2aea1e"/>
+        <COMPID name="CU-18/5.5" mc="Standard.CommunicationInteraction" uid="6c4b81eb-343d-4548-a2ec-ba6005b155bb"/>
+        <COMPID name="CU-43/5.1" mc="Standard.CommunicationInteraction" uid="01bf7ea1-09cc-484a-971d-ef1d7a3652e7"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

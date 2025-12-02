@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagramas_de_colaboración_de_diseño" version="4">
+  <OBJECT>
+    <ID name="Diagramas_de_colaboración_de_diseño" mc="Standard.Package" uid="dfe61a04-bb9e-4b72-9c19-2bc11be09450"/>
+    <PID name="Diagrama_de_secuencias" mc="Standard.Project" uid="395de9d8-60ff-461a-8b5a-23b255a71f18"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Diagramas_de_colaboración_de_diseño]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="CU-44/5.2" mc="Standard.CommunicationInteraction" uid="cfe8a298-8edf-4ed9-b4e3-f961d0033aa2"/>
+        <COMPID name="CU-45/5.3" mc="Standard.CommunicationInteraction" uid="081c0121-7c7d-4d12-9ac0-ae075cc108f1"/>
+        <COMPID name="CU-18/5.5" mc="Standard.CommunicationInteraction" uid="b75ad829-81c8-4f52-8cf5-005cb60f282c"/>
+        <COMPID name="CU-43/5.1" mc="Standard.CommunicationInteraction" uid="56e0a0f0-933d-4586-b034-3caa8da0a496"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
